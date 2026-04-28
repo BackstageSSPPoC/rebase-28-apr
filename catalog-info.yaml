@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rebase-28-apr
+  description: Node app that displays time - named rebase-28-apr
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/rebase-28-apr
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_SSP_PoC/rebase-28-apr/main
+    argocd/app-name: rebase-28-apr
+    backstage.io/kubernetes-id: rebase-28-apr
+    backstage.io/kubernetes-namespace: default
+    sonarqube.org/project-key: rebase-28-apr
+
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
