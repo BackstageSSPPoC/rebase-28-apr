@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
 metadata:
   name: rebase-28-apr
-  description: Node app that displays time - named rebase-28-apr
+  description: Service rebase-28-apr
+
   annotations:
     github.com/project-slug: BackstageSSPPoC/rebase-28-apr
     backstage.io/techdocs-ref: dir:.
